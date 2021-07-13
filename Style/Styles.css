@@ -216,7 +216,6 @@ main{
     text-decoration: none;
 }
 
-
 .courses-info{
     font-size: 15px;
     align-items: center;
@@ -279,7 +278,7 @@ main{
 ---------------------------------------------- */
 
 
-/* ------------------------------Fot Mobile Device --------------------------------------------------*/
+/* ------------------------------Fot Mobile Device --------------------------------------------------------*/
 
 @media only screen and (max-width:689px) {
     
@@ -552,7 +551,7 @@ main{
 
 
 
-/* ------------------------------Fot Tab/Ipod Device ----------------------------------------------*/
+/* ------------------------------Fot Tab/Ipod Device -----------------------------------------------------*/
 
 
 @media only screen and (min-width:689px) and (max-width:991px) {
@@ -916,7 +915,6 @@ main{
 
 
 
-
 /* Latest Course Section Start Here */
 .Latest-Course-section{
     border-radius: 10px;
@@ -1001,13 +999,6 @@ main{
     border-radius: 20px;
     margin-right: 15px;
 }
-
-
-
-
-
-
-
 
 }
 
