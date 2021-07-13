@@ -1,3 +1,322 @@
+
+
+
 body{
+margin: 0px;
+padding: 0px;
+background-color:#E5E5E5;
+font-family: 'Lato', sans-serif;
 
 }
+
+/* Header Start Here ----------------------------------------*/
+header{
+    position: relative;
+    background-color: blue;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 65%;
+    height: 90%;
+}
+
+/* Logo */
+.Header-Logo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 12%;
+}
+
+.Header-Logo img {
+    width: 57px;
+    height: 65px;
+}
+
+.Header-Logo h2{
+    padding-left: 10px;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+/* -Header Navigation Bar with Profile- */
+.Header-Nav-with-profile{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+
+}
+.Header-Nav-with-profile a{
+font-size: 25px;
+color: white;
+text-decoration: none;
+margin-right: 20px;
+font-weight: 500;
+}
+
+
+
+
+
+
+/* Top Main Section -------------------------------------------*/
+
+main{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.top-player-section-and-top-blogs{
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 30px;
+    width: 62%;
+}
+
+/* Top players section start here */
+.top-players{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+}
+
+.top-player-heading{
+    margin-top: 10px;
+    color: #562EFF;
+    grid-column-start: 1;   
+    grid-column-end: 4;
+}
+
+.players{
+    display: flex;
+    align-items: center;
+}
+
+.players h2{
+    margin-left: 20px;
+}
+
+.players img{
+    width: 51px;
+    height: 51px;
+}
+
+
+
+
+
+/* Top blogs start here */
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px 5px;
+    margin-bottom: 30px;
+}
+
+.top-blogs-heading{
+    color: #562EFF;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.blogs {
+    display: flex;
+}
+
+
+.blogs img{
+    width: 177px;
+    height: 117px;
+}
+
+.blogs h1, h3{
+    margin: 3px 0px 0px 0px ;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.blogs h3{
+    color: gray;
+    font-size: 18px;
+}
+
+.blogs-description a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Latest Course Section Start Here */
+.Latest-Course-section{
+    border-radius: 10px;
+    background-color: white;
+    width: 62%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.Latest-Course-section-Heading{
+    margin-top: 30px;
+    color: #562EFF;
+}
+
+
+.All-Courses{
+    margin-right: 30px;
+    width: 100%;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.course-box{
+    display: flex;
+    padding: 20px 0px 20px 20px;
+    margin: 2%;
+    width: 26%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px gray;
+}
+
+.Courses img{
+    width: 224px;
+    height: 104px;
+}
+
+.Courses a{
+    text-decoration: none;
+}
+
+
+.courses-info{
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.feild{
+    color: gold;
+}
+
+.empty{
+    color: #AEAEAE;
+    opacity: 50%;
+}
+
+.rating-number{
+    margin-left: 10px;
+    color: gray;
+    font-weight: 700;
+}
+
+.course-duration{
+    font-weight: 800;
+    color: #FF4A60;
+    background-color: #FFE4E8;
+    padding: 7px;
+    margin-left: 5px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------
+        Media Queries
+---------------------------------------------- */
+
+
+/* Fot Mobile Device */
+
+@media (max-width:688px) {
+    header{
+        position: relative;
+        background-color: blue;
+        width: 100%;
+        height: 200px;
+    }
+    
+    .header-content{
+        position: relative;
+        width: 65%;
+        height: 90%;
+    }
+    
+    /* Logo */
+    .Header-Logo{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 12%;
+    }
+    
+    .Header-Logo img {
+        width: 37px;
+        height: 25px;
+    }
+    
+    .Header-Logo h2{
+        padding-left: 10px;
+        font-size: 1.8em;
+        font-weight: 500;
+    }
+    
+    /* -Header Navigation Bar with Profile- */
+    .Header-Nav-with-profile{
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    
+    
+    }
+    .Header-Nav-with-profile a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 500;
+    }
+
+
+
+
+
+
+
